@@ -1,13 +1,11 @@
-# CNN-GC
-Programas y documentación adicional del artículo "An Algorithm for Classifying Handwritten Signatures Using Convolutional Networks"
+# BESS/CURTAILMENT
+Programas y documentación adicional del artículo "PV Power Curtailment and BESS Management for Distribution Networks: A Practical Approach"
 
-El programa signature.py es el programa orginal del bot de Telegram que se muestra en el paper,  los demas archivos son actualizados
-constantemente para y corresponden a pruebas de trabajos futuros relacionados con el paper
+Se adjuntan todos los archivos comprimidos. Para utilizarlos se deben de descomprimir "casos.zip".
 
-El directorio cedar, contiene el conjunto de firmas para validación CEDAR, despues de aplicar la etapa de pre-proceso de la imagen, 
-es decir despues de haber quitado el ruido inherente a la firma. Las firmas se encuentran en Blanco y Negro
+El archivo "Control_Bess_UR.py" dentro de la carpeta del caso se ejecutan las simulaciones, desde un entorno Python-OpenDSS. Aquí se especifican el número de simulaciones, así como configuración de los estándares empleados y las estadísticas de distribución de la generación.
 
-En el directorio documentacion se encuentran documentacion relacionada con al artículo
+Las características topologícas del ejemplo se encuentran en los archivos ".txt" escritos con la sintaxis de OpenDSS.
 
-![image](https://user-images.githubusercontent.com/88167301/132792375-de23a34c-c9e2-439f-8de4-18a39f12b7d2.png)
+Para dudas contactar en: cnacostac@gmail.com
 
